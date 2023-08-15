@@ -1,47 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-AU-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></head>
-<body>
-    <div class="outer-box">
-        <span class="Title">Car Accident 2 injured</span>
-        <div class="box">
-            <label class="toggle-switch">
-            <input type="checkbox" onchange="this.parentNode.classList.toggle('on')">
-            <span class="toggle-switch-label"></span>
-            </label>
-        </div>
-        <button class="close-button" onclick="closeBox()">&times;</button>
-      <div class="inner-box">
-        <div class="box">
-            <i class="fas fa-angle-up arrow top-right"></i>
-        <span class="heading">Event Details</span>
-            <p class="bold-text">Incident ID:<span class="text"> E/2023227/2419</span></p>
-            <p class="bold-text">Location<br/>
-        <span class="text">BlockHouseNumber,StreetName,<br/>FloorNumber,UnitNumber</span></p>
-        <hr class="soft-line">
-        <p class="bold-text">Description<br/>
-            <span class="text">A Civilian reported a hit and run occurred on a main street. Two pedestrians are injured.
-            A male driver in a red Mustang plate number SBA1234A approached a Crosswalk on St Andrew.s Rd. Passed a red traffic light hitting 2 pedestrians crossing
-            the road. Ambulance arrived on the scene.Driver flee south west, disappeared on Parliament Pl.<br/>Informer was indentified as Rou Daiton.<br/>
-            Phone number +65 3163 3155</span></p>
-        <hr class="soft-line">
-            <p class="bold-text">The Reporter Details<br/>
-                <span class="black-text">Full Name:</span><span class="text">  PersonalName</span><br/>
-                <span class="black-text">ID Number:</span><span class="text">  PersonalIDType PersonalID</span><br/>
-                <span class="black-text">Address:</span><span class="text">  PersonalAddress</span><br/>
-                <span class="black-text">Language:</span><span class="text">  PersonalLanguage</span><br/>
-            </p>
-        </div>
-      </div>
-      <div class="box">
-        <i class="fas fa-angle-down arrow bottom"></i>
-    </div>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
+
+<div class="box">
+    <img src="projects/intsight-ui/src/assets/images/svg/icons/calendar.svg" alt="Icon" class="icon" />
+    <select class="dropdown">
+        <option value="option1">Last 30 Minutes</option>
+        <option value="option2">Last Hour</option>
+        <option value="option3">Last 4 Hours</option>
+        <option value="option4">Last 24 Hours</option>
+        <option value="option5">Last 72 Hours</option>
+        <option value="option6">Custom</option>
+      </select>
+  </div>
+
+
+
